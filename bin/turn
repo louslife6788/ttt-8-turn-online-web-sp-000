@@ -1,1 +1,5 @@
 #!/usr/bin/env ruby
+puts "pick a move"
+move = gets.strip
+move = move.to_i - 1
+puts "your choice was #{move}"
